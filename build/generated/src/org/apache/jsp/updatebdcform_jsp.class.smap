@@ -1,0 +1,18 @@
+SMAP
+updatebdcform_jsp.java
+JSP
+*S JSP
+*F
++ 0 updatebdcform.jsp
+updatebdcform.jsp
+*L
+5,13:47
+18,19:61
+36,15:80
+51,10:96
+60,2:106
+62,7:108,3
+69,2:129
+71,9:132
+79,4:141
+*E

@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Oct, 2019, 5:21:41 PM
+    Author     : User
+*/
+.neon
+{
+    top:20%;
+    left:10%;
+    position:absolute;
+    trransform:translate(-30%,-30%);
+    margin:0;
+    paddding:0;
+    font-size: 4em;
+    color:#000000;
+    text-shadow: 10px 12px 10px #000000;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.h1 {
+  font-size: 3em; /* 40px/16=2.5em */
+}
+.text{
+    font-size: 1.5em;
+}
+.h2{
+    font-size: 3em;
+}
+.text1{
+    font-size: 1.5em;
+}
+.background{
+    margin: 0;
+    padding: 0;
+    background: url(retrive.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body1{
+margin:0;
+padding:0;
+background:url(bg_1.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+background-repeat: no-repeat;
+}
+.body{
+margin:0;
+padding:0;
+background:#000;
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+background-repeat:no-repeat;
+}
+.body2{
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loginbox{
+width:320px;
+height:420px;
+background:#000;
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+.avatar{
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+}
+
+h1{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+font-size:22px;
+}
+.loginbox p{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+.loginbox input{
+width:100%;
+margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+border:none;
+border-bottom:1px solid #fff;
+background: transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+}
+a:link {color:none;}
+a:hover{color:none;}
+a:active{color:none;}
+a:link{text-decoration:none;}
+a{
+    font-size: 70px;
+    font-family: sans-serif;
+    color:#00cccc;
+}

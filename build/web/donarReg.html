@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" type="text/css" rel="stylesheet">
+    </head>
+    <body class="body2">
+        <center>
+        <form name="myform" action="donarReg.jsp" method="post" onsubmit="return checkForm()">
+            <fieldset> 
+                <legend><h1 align="center" class="h1" ><b>Donar Registration</b></h1></legend>
+            <table border="0" cellspacing="5" cellpadding="5">
+                <tbody>
+                    <tr>
+                        <td class="text"><b>Name of Donar</b></td>
+                        <td>: <input type="text" name="Name" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text"><b>Blood Group</b></td>
+                        <td>: <input type="text" name="BloodGroup" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text"><b>Age</b></td>
+                        <td>: <input type="text" name="Age" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text"><b>Weight</b></td>
+                        <td>: <input type="text" name="Weight" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text"><b>MobileNo</b></td>
+                        <td>: <input type="text" name="MobileNo" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit" /></td>
+                    </tr>
+                </tbody>
+            </table>
+            </fieldset>
+        </form>
+    </center>
+    
+    </body>
+</html>
+<script>
+    function checkForm()
+    {
+        var u= document.myform.Name.value;
+        var u= document.myform.Name.value;
+        if(u==null||u=="")
+        {
+            alert("Name field cannot be empty");
+            return false;
+        }
+        var b= document.myform.BloodGroup.value;
+        if(b==null||b=="")
+        {
+            alert("BloodGroup field cannot be empty");
+            return false;
+        }
+        var a= document.myform.Age.value;
+        if(a==null||a=="")
+        {
+            alert("Age field cannot be empty");
+            return false;
+        }
+        var w= document.myform.Weight.value;
+        if(w==null||w=="")
+        {
+            alert("Weight field cannot be empty");
+            return false;
+        }
+        var nm= document.myform.MobileNo.value;
+        if(isNaN(nm))
+        {
+            alert("Please enter no only");
+            return false;
+        }
+        if(nm==null||nm=="")
+        {
+            alert("Mobile No field cannot be empty");
+            return false;
+        }
+        
+    return true;
+    }
+    </script>
